@@ -1,0 +1,15 @@
+.deploy
+.kupa
+
+# environment variables
+.env
+.env.production
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Trashes
+
+# Editor
+.vscode

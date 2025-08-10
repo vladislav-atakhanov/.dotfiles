@@ -1,0 +1,9 @@
+[credential]
+	helper = manager
+[user]
+	email = eloh1mZee@gmail.com
+	name = Vladislav Atakhanov
+	username = vladislav-atakhanov
+[core]
+	excludesile = ~/.gitignore
+
