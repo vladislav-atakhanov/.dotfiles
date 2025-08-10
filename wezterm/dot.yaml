@@ -1,3 +1,4 @@
 windows:
   links:
     wezterm.lua: ~/.wezterm.lua
+  installs: winget install wez.wezterm
