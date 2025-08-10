@@ -1,0 +1,26 @@
+theme = "gruvbox-transparent"
+
+[editor]
+bufferline = "always"
+line-number = "relative"
+cursorline = true
+shell = ["nu", "-c"]
+default-line-ending = "lf"
+auto-pairs = false
+
+[keys.normal.space]
+g = [
+  ":write-all",
+  ":new",
+  ":insert-output lazygit",
+  ":buffer-close!",
+  ":redraw",
+  ":reload-all",
+]
+G = "changed_file_picker"
+e = [
+  ':sh rm -f C:/!TEMP/yazi-file',
+  ':insert-output yazi %{buffer_name} --chooser-file=C:/!TEMP/yazi-file',
+  ':open %sh{open --raw C:/!TEMP/yazi-file }',
+  ':redraw',
+]

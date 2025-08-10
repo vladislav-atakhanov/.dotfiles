@@ -1,0 +1,6 @@
+windows:
+  installs: winget install Helix.Helix
+  links:
+    config.toml: ~\AppData\Roaming\helix\config.toml
+    themes: ~\AppData\Roaming\helix\themes
+    languages.toml: ~\AppData\Roaming\helix\languages.toml
