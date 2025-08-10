@@ -1,0 +1,10 @@
+windows:
+  installs: winget install nushell
+  links:
+    config.nu: ~/AppData/Roaming/nushell/config.nu
+    env.nu: ~/AppData/Roaming/nushell/env.nu
+
+darwin:
+  links:
+    config.nu: ~/Library/Application Support/nushell/config.nu
+    env.nu: ~/Library/Application Support/nushell/env.nu
