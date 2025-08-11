@@ -5,5 +5,5 @@
 	name = Vladislav Atakhanov
 	username = vladislav-atakhanov
 [core]
-	excludesile = ~/.gitignore
+	excludesfile = ~/.gitignore
 
