@@ -25,3 +25,4 @@ source ~/.zoxide.nu
 alias p = pswd show -c (fd -e asc --base-directory ~/.pswd --path-separator=/ . | str replace -a ".asc" "" | fzf)
 alias cat = open --raw
 alias tree = eza --tree --git-ignore
+alias www = goshs -d ~/www -nc --port=80
