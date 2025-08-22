@@ -1,0 +1,49 @@
+[[language]]
+name = "python"
+language-servers = ["pyright", "ruff", "pylyzer", "codebook"]
+
+[[language]]
+name = "jinja"
+indent = { tab-width = 4, unit="t" }
+language-servers = ["vscode-html-language-server", "tailwindcss-ls" , "codebook"]
+
+[[language]]
+name = "templ"
+auto-format = true
+language-servers = ["templ", "vscode-html-language-server", "tailwindcss-ls" ,"codebook"]
+
+[[language]]
+name = "markdown"
+language-servers = ["codebook"]
+
+[[language]]
+name = "go"
+language-servers = ["codebook", "gopls", "golangci-lint-lsp"]
+
+
+[language-server.tailwindcss-ls]
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+
+[language-server.tailwindcss-ls.config.userLanguages]
+astro = "html"
+"*.astro" = "html"
+jinja = "html"
+"*.j2" = "html"
+templ = "html"
+
+[language-server.codebook]
+command = "codebook-lsp"
+args = ["serve"]
+
+[language-server.pyright.config.python.analysis]
+typeCheckingMode = "basic"
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
+[language-server.pylyzer]
+command = "pylyzer"
+args = ["--server"]
+

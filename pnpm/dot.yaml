@@ -1,0 +1,2 @@
+windows:
+  installs: winget list pnpm.pnpm || winget install -e --id pnpm.pnpm && pnpm setup
