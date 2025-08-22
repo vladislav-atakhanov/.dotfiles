@@ -1,0 +1,3 @@
+windows:
+  links:
+    codebook.toml: ~/AppData/Roaming/codebook/codebook.toml

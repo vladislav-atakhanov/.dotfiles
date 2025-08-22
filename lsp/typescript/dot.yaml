@@ -1,0 +1,4 @@
+installs:
+  cmd: pnpm install -g typescript typescript-language-server
+  depends:
+    - /pnpm

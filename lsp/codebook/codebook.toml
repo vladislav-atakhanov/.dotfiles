@@ -1,0 +1,14 @@
+dictionaries = [
+    "en_us",
+    "ru",
+]
+words = [
+    "donut",
+    "enctype",
+    "geon",
+    "gorm",
+    "gpt",
+    "oob",
+    "templ",
+    "varchar",
+]

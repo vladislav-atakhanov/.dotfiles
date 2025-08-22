@@ -1,0 +1,4 @@
+installs:
+  cmd: pnpm i -g vscode-langservers-extracted
+  depends:
+    - /pnpm
